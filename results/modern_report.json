@@ -1,0 +1,26 @@
+{
+  "train_hours": 5856,
+  "calibration_hours": 2928,
+  "test_hours": 8760,
+  "score_quantiles": {
+    "pooled": 220.12063807851905,
+    "rush": 357.12215799003116,
+    "nonrush": 143.8863985976185
+  },
+  "rush_coverage_difference_pp": 12.28962818003914,
+  "rush_coverage_difference_95pct_pp": [
+    10.6458,
+    13.9344
+  ],
+  "rush_width_difference": 261.2574055793739,
+  "rush_width_difference_95pct": [
+    258.5677,
+    263.685
+  ],
+  "caveats": [
+    "not paired station-level availability or stockout estimation",
+    "post-calibration time shift invalidates exchangeability-based guarantees",
+    "2024-2025 modern trip archives are not commensurate with 2011-12 UCI count definitions without adjustment",
+    "historical calendar inputs exclude weather forecast availability issues"
+  ]
+}
